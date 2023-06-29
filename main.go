@@ -1,8 +1,6 @@
 package main
 
-import (
-	"gople/ch1"
-)
+import "gople/ch1"
 
 func main() {
 	// 第一章练习

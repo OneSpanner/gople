@@ -38,20 +38,25 @@ var paletteV2 = []color.Color{
 //	greenIndex = 2
 //)
 
-//func main() {
-//	Exer5()
-//}
-
+// Exer6
+//
+//	 @Description: 练习1.6
+//	 @运行命令：
+//		 go build main.go
+//		 ./main >out.gif
 func Exer6() {
+	//fmt.Println("\n=====================Exer6 Start=====================")
 
 	// The sequence of images is deterministic unless we seed
 	// the pseudo-random number generator using the current time.
 	// Thanks to Randall McPherson for pointing out the omission.
 	rand.Seed(time.Now().UTC().UnixNano())
-	lissajous(os.Stdout)
+	lissajousV2(os.Stdout)
+
+	//fmt.Println("=====================Exer6 End=====================")
 }
 
-func lissajous(out io.Writer) {
+func lissajousV2(out io.Writer) {
 	const (
 		cycles  = 5     // number of complete x oscillator revolutions
 		res     = 0.001 // angular resolution
