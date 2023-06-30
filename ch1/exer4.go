@@ -26,6 +26,7 @@ func Exer4() {
 
 	fmt.Println("=====================Exer4 End=====================")
 }
+
 func countLines(f *os.File, counts map[string]int) {
 	input := bufio.NewScanner(f)
 	for input.Scan() {

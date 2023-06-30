@@ -9,5 +9,7 @@ func main() {
 	//ch1.Exer3()
 	//ch1.Exer4()
 	//ch1.Exer5()
-	ch1.Exer6()
+	//ch1.Exer6()
+	//ch1.Exer7()
+	ch1.Exer8()
 }
