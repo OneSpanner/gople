@@ -12,6 +12,10 @@ import (
 // Exer9
 //
 //	@Description: 练习1.9
+
+// Exer9
+//
+//	@Description: 需要入参为 “http://gopl.io”
 func Exer9() {
 	fmt.Println("\n=====================Exer9 Start=====================")
 
@@ -32,7 +36,7 @@ func Exer9() {
 		//	os.Exit(1)
 		//}
 		//fmt.Printf("%s", b)
-		fmt.Printf("Status =%v\n", resp.Status)
+		fmt.Printf("Status = %v\n", resp.Status)
 	}
 
 	fmt.Println("=====================Exer9 End=====================")
