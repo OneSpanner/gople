@@ -11,11 +11,7 @@ import (
 
 // Exer9
 //
-//	@Description: 练习1.9
-
-// Exer9
-//
-//	@Description: 需要入参为 “http://gopl.io”
+//	@Description: 练习1.9 需要入参为 “http://gopl.io”
 func Exer9() {
 	fmt.Println("\n=====================Exer9 Start=====================")
 
