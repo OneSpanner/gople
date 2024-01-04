@@ -6,11 +6,11 @@ import (
 	"time"
 )
 
-// Exer10
+// Exer11
 //
-//	@Description: 练习1.10 需要入参为 “https://gopl.io https://goland.org https://godoc.org”
-func Exer10() {
-	fmt.Println("\n=====================Exer10 Start=====================")
+//	@Description: 练习1.11 需要入参为 “https://gopl.io https://goland.org https://godoc.org”
+func Exer11() {
+	fmt.Println("\n=====================Exer11 Start=====================")
 	start := time.Now()
 	ch := make(chan string)
 	counter := 0
@@ -26,5 +26,5 @@ func Exer10() {
 	}
 	fmt.Printf("%.2fs elapsed\n", time.Since(start).Seconds())
 
-	fmt.Println("=====================Exer10 End=====================")
+	fmt.Println("=====================Exer11 End=====================")
 }
